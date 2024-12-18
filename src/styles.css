@@ -1,0 +1,216 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Quote Calculator Form Styles */
+.quote-calculator {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.slider-container {
+  margin-bottom: 30px;
+}
+
+.slider-label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00c853;
+  margin-bottom: 10px;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.slider-range {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button.calculate-quote-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #00c853;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.calculate-quote-button:hover {
+  background-color: #009624;
+}
+
+.credit-score-note {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Quote Summary Page Styles */
+.quote-summary {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.quote-summary h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.info-section,
+.finance-section {
+  margin-bottom: 25px;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.detail strong {
+  font-weight: bold;
+}
+
+.edit-button {
+  color: #00c853;
+  font-size: 0.9rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  text-decoration: underline;
+}
+
+/* Apply Now Button */
+.apply-now-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(90deg, #00c853, #009624);
+  border: none;
+  border-radius: 30px; /* Rounded corners */
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.2s, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.apply-now-button:hover {
+  background: linear-gradient(90deg, #009624, #00a845);
+  transform: scale(1.05); /* Slight scale effect */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+}
+
+.apply-now-button:active {
+  transform: scale(0.98); /* Pressed button effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.terms {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Success Screen */
+.success-screen {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.success-screen h2 {
+  font-size: 2rem;
+  color: #00c853;
+  margin-bottom: 20px;
+}
+
+.success-screen p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.success-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #00c853;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.success-button:hover {
+  background-color: #009624;
+}
+
